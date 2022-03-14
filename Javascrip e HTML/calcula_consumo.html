@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h3>Álcool ou Gasolina?</h3>
+	<script type="text/javascript">
+
+		function pulaLinha(){
+			document.write("<br><br>")
+		}
+		function mostra(texto){
+			document.write(texto)
+			pulaLinha()
+		}
+		var tanque=40;
+		var caminhoComGasolina=480;
+		var consumoDeGasolina=caminhoComGasolina/tanque;
+
+		document.write("O consumo de Gasolina por litro é de: " + consumoDeGasolina + "KM<br><br>");
+		var caminhoComAlcool=300;
+		var consumoDeAlcool=caminhoComAlcool/tanque;
+		
+		mostra("O consumo de Álcool por litro é de: " + consumoDeAlcool + "KM");
+
+		
+	</script>
+
+</body>
+</html>

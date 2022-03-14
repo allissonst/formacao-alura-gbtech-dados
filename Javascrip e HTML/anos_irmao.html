@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function pulaLinha(){
+			document.write("<br><br>");
+		}
+
+		function mostra(idadeDiferenca){
+			document.write("Nossa diferença de idade é " + idadeDiferenca + " anos");
+			pulaLinha();
+		}
+		function mostraDois(anoAntigo, anoAtual){
+			document.write("Já se passaram " + Math.round((anoAtual-anoAntigo)/28) + " gerações");
+			pulaLinha();
+		}
+
+		var anoNathy = 27;
+		var anoAllisson = 24;
+		var idadeDiferencaa = anoNathy-anoAllisson;
+		var anoAntigo=1500
+		var anoAtual=2022
+
+		mostra(idadeDiferencaa);
+		mostraDois(anoAntigo,anoAtual);
+
+
+	</script>
+
+</body>
+</html>

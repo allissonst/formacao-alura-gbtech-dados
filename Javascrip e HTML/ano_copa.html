@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	    function pulaLinha() {
+	        document.write("<br><br>");
+	    }
+
+	    function mostra(frase) {
+	        document.write(frase);
+	        pulaLinha();
+	    }
+
+	    var anoCopa=2000;
+	    var limite=parseInt(prompt("Digite o ano limite"))
+
+	    while(anoCopa<=limite) {
+	    	mostra("Teve compa em "+anoCopa);
+	    	anoCopa=anoCopa+4;
+	    }
+
+	    mostra("FIM")
+
+	</script>
+
+</body>
+</html>

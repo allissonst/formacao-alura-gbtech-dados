@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	    function pulaLinha() {
+	        document.write("<br><br>");
+	    }
+
+	    function mostra(frase) {
+	        document.write(frase);
+	        pulaLinha();
+	    }
+
+	    primeiroNumero=7;
+	    for (var multiplicador=1;multiplicador<=10;multiplicador++){
+	    	mostra(primeiroNumero+" * "+multiplicador+" = "+(primeiroNumero*multiplicador))
+	    }
+	    mostra("FIM")
+
+	    var i=0;
+		while(i < 10) {
+		    mostra( "O resultado é " + (2 * i) );
+		    i++;
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function pulaLinha(){
+			document.write("<br><br>");
+		}
+
+		function mostra(frase){
+			document.write(frase);
+			pulaLinha();
+		}
+		function calculaIMC(peso1,altura1, peso2, altura2){
+			var imc1=peso1/(altura1*altura1);
+			var imc2=peso2/(altura2*altura2);
+			var imcTotal=imc1+imc2;
+
+			return Math.round(imcTotal);
+		}
+
+		var imcSoma = calculaIMC(79,1.77,68,1.72);
+		document.write("A soma dos IMCs é: ");
+		mostra(imcSoma);
+
+		
+	</script>
+
+</body>
+</html>
