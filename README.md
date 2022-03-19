@@ -36,7 +36,7 @@
   
 :white_check_mark:	S8	Introdução à experimentação: Análise de experimentos
   
-:x:	S9	Scraping com Python: Coleta de dados na web
+:white_check_mark:	S9	Scraping com Python: Coleta de dados na web
   
 :x:	S9	Data Visualization parte 1: introdução ao design de gráficos
   
