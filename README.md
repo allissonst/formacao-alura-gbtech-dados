@@ -38,7 +38,7 @@
   
 :white_check_mark:	S9	Scraping com Python: Coleta de dados na web
   
-:x:	S9	Data Visualization parte 1: introdução ao design de gráficos
+:white_check_mark:	S9	Data Visualization: técnicas de visualização com Google Sheets
   
 :x:	S10	Data Visualization parte 2: Escolhendo o melhor gráfico
   
