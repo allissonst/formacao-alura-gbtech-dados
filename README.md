@@ -40,7 +40,7 @@
   
 :white_check_mark:	S9	Data Visualization: técnicas de visualização com Google Sheets
   
-:x:	S10	Data Visualization parte 2: Escolhendo o melhor gráfico
+:white_check_mark:	S10	Data Visualization parte 2: Escolhendo o melhor gráfico
   
 :x:	S10	Data Visualization: criação de gráficos com o Matplotlib
   
